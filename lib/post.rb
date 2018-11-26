@@ -15,6 +15,11 @@ class Post
   end
 
   def author_name
-    self.author.name
+    begin
+      self.author.name
+    rescue
+      nil
+    end
+    
   end
 end
