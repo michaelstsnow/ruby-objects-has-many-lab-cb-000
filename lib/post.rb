@@ -6,10 +6,6 @@ class Post
     @@all << self
   end
 
-  def self.class_variable_get(variable)
-    #self.variable
-  end
-
   def self.all
     @@all
   end
