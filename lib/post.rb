@@ -1,8 +1,8 @@
-class Post
-  attr_accessor(:title, :author)
-  @@all = []
-  def initialize(title)
-    @title=title
+class Song
+  attr_accessor(:name, :artist)
+  @@all=[]
+  def initialize(name)
+    @name=name
     @@all << self
   end
 
@@ -10,12 +10,12 @@ class Post
     @@all
   end
 
-  def author_name
+  def artist_name
     begin
-      self.author.name
+      self.artist.name
     rescue
       nil
     end
-
   end
+
 end
