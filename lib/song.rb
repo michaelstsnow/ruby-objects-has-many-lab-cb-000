@@ -11,7 +11,11 @@ class Song
   end
 
   def artist_name
-    self.artist.name
+    begin
+      self.artist.name
+    rescue
+      nil
+    end
   end
 
 end
