@@ -20,6 +20,6 @@ class Post
     rescue
       nil
     end
-    
+
   end
 end
