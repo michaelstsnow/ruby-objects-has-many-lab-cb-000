@@ -10,9 +10,9 @@ class Post
     @@all
   end
 
-  def artist_name
+  def author_name
     begin
-      self.artist.name
+      self.author.name
     rescue
       nil
     end
