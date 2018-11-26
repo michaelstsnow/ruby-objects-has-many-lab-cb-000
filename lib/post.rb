@@ -7,7 +7,7 @@ class Post
   end
 
   def self.class_variable_get(variable)
-    self.variable
+    #self.variable
   end
 
   def self.all
